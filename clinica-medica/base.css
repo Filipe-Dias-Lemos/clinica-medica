@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  display: flex;
+  font-family: Arial, sans-serif;
+}
+
+.main {
+  display: flex;
+  flex-flow: column;
+  width: 85%;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.header {
+  background-size: cover;
+  color: white;
+  text-align: center;
+  height: 300px;
+}
+
+.menu {
+  width: 15%;
+  height: 100%;
+  background-color: #353434;
+  color: white;
+  text-align: center;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul li {
+  display: block;
+  margin: 50px 10px;
+}
+
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.content {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
